@@ -1,0 +1,3 @@
+FROM node:alpine
+WORKDIR 'user/app/'
+CMD ["npm","run","start"]
